@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://plantain-frontend.vercel.app/",
+    origin: "http://localhost:3000",
   })
 );
 
